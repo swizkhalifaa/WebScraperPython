@@ -109,7 +109,7 @@ for id, team in teams.items():
     full_stat.to_csv (r'C:\Users\Darren\Desktop\export_dataframe.csv', index = False, header=True)
 
 # Connecting to mongoDB and creating a collection  
-client = pymongo.MongoClient("mongodb+srv://darren:dembaba19@clusterairlinenodes-c6yeq.mongodb.net/test?retryWrites=true&w=majority")
+client = pymongo.MongoClient("#########")
 db = client.FootballBase
 collection = db['Stats']
 
